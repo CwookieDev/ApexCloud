@@ -204,40 +204,10 @@
                                                         <div class="text-remove">Remove</div>
                                                     </a>
                                                 </div>
-                                                <input
-                                                    type="text"
-                                                    required=""
-                                                    pattern="^[0-9]+$"
-                                                    inputmode="numeric"
-                                                    data-wf-bindings="%5B%7B%22value%22%3A%7B%22type%22%3A%22Number%22%2C%22filter%22%3A%7B%22type%22%3A%22numberPrecision%22%2C%22params%22%3A%5B%220%22%2C%22numberPrecision%22%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D.count%22%7D%7D%2C%7B%22data-commerce-sku-id%22%3A%7B%22type%22%3A%22ItemRef%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D.sku.id%22%7D%7D%5D"
-                                                    class="w-commerce-commercecartquantity cart-quantity-item"
-                                                    name="quantity"
-                                                    data-wf-cart-action="update-item-quantity"
-                                                    data-commerce-sku-id=""
-                                                    value="1"
-                                                />
-                                            </div>
-                                        </div>
-                                        <div class="border-ecommerce"></div>
-                                        <div class="w-commerce-commercecartfooter cart-footer">
-                                            <div class="w-commerce-commercecartlineitem">
-                                                <div>Subtotal</div>
-                                                <div
-                                                    data-wf-bindings="%5B%7B%22innerHTML%22%3A%7B%22type%22%3A%22CommercePrice%22%2C%22filter%22%3A%7B%22type%22%3A%22price%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.subtotal%22%7D%7D%5D"
-                                                    class="w-commerce-commercecartordervalue text-subtotal"
                                                 ></div>
                                             </div>
                                             <div>
                                                 <div data-wf-paypal-button='{"layout":"horizontal","color":"black","shape":"pill","label":"paypal","tagline":false,"note":false}' class="paypal"></div>
-                                                <div data-node-type="commerce-cart-quick-checkout-actions" style="display: none;" class="web-payments">
-                                                    <a
-                                                        data-node-type="commerce-cart-apple-pay-button"
-                                                        style="background-image: -webkit-named-image(apple-pay-logo-white); background-size: 100% 50%; background-position: 50% 50%; background-repeat: no-repeat;"
-                                                        class="w-commerce-commercecartapplepaybutton apple-pay"
-                                                    >
-                                                        <div></div>
-                                                    </a>
-                                                    <a data-node-type="commerce-cart-quick-checkout-button" style="display: none;" class="w-commerce-commercecartquickcheckoutbutton pay-with-browser">
                                                         <svg class="w-commerce-commercequickcheckoutgoogleicon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
                                                             <defs>
                                                                 <polygon id="google-mark-a" points="0 .329 3.494 .329 3.494 7.649 0 7.649"></polygon>
@@ -279,26 +249,6 @@
                                                         <div>Pay with browser.</div>
                                                     </a>
                                                 </div>
-                                                <a href="/checkout" value="Continue to Checkout" data-node-type="cart-checkout-button" class="w-commerce-commercecartcheckoutbutton checkout-button" data-loading-text="Hang Tight...">
-                                                    Continue to Checkout
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </form>
-                                    <div class="w-commerce-commercecartemptystate cart-empty-state">
-                                        <div class="text-cart-empty">There are not items in your cart.<br /></div>
-                                        <a href="/get-started" class="button w-button">Back To Shop</a>
-                                    </div>
-                                    <div style="display: none;" data-node-type="commerce-cart-error" class="w-commerce-commercecarterrorstate cart-error-state">
-                                        <div
-                                            class="text-error w-cart-error-msg"
-                                            data-w-cart-quantity-error="Product is not available in this quantity."
-                                            data-w-cart-general-error="Something went wrong when adding this item to the cart."
-                                            data-w-cart-checkout-error="Checkout is disabled on this site."
-                                            data-w-cart-cart_order_min-error="The order minimum was not met. Add more items to your cart to continue."
-                                            data-w-cart-subscription_error-error="Cart failed."
-                                        >
-                                            Product is not available in this quantity.
                                         </div>
                                     </div>
                                 </div>
