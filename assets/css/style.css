@@ -284,10 +284,6 @@ input.w-button {
 html[data-w-dynpage] [data-w-cloak] {
     color: transparent !important;
 }
-.w-webflow-badge,
-.w-webflow-badge * {display:none;}
-.w-webflow-badge {display:none;}
-.w-webflow-badge > img {display:none;}
 h1,
 h2,
 h3,
