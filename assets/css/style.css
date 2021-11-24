@@ -287,12 +287,7 @@ html[data-w-dynpage] [data-w-cloak] {
 .w-webflow-badge,
 .w-webflow-badge * {display:none;}
 .w-webflow-badge {display:none;}
-.w-webflow-badge > img {
-    display: inline-block !important;
-    visibility: visible !important;
-    opacity: 1 !important;
-    vertical-align: middle !important;
-}
+.w-webflow-badge > img {display:none;}
 h1,
 h2,
 h3,
