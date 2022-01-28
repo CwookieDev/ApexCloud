@@ -2482,9 +2482,10 @@ figcaption {
 }
 
 .section.cta {
-    padding-top: 60px;
-    padding-bottom: 60px;
-    background-color: #ff8500;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color:white !important;
+    background-color: #34004d;
 }
 
 .section._60px-top {
@@ -2507,7 +2508,7 @@ figcaption {
 .section.orange-section {
     padding-top: 60px;
     padding-bottom: 60px;
-    background-color: #ff8500;
+    background-color: #34004d;
 }
 
 .section._0-bottom {
@@ -2515,7 +2516,7 @@ figcaption {
 }
 
 .hero-max {
-    max-width: 500px;
+    max-width: 90%;
     margin-right: auto;
     margin-left: auto;
 }
@@ -2731,7 +2732,7 @@ figcaption {
 
 .small-title {
     margin-bottom: 20px;
-    color: #ff8500;
+    color: #34004d;
     font-size: 17px;
     line-height: 26px;
     font-weight: 600;
@@ -3347,6 +3348,10 @@ figcaption {
     margin-bottom: 0px;
     color: #fff;
     font-size: 15px;
+}
+
+.copyright a:hover {
+    color:white;
 }
 
 .margin-25px {
@@ -4362,6 +4367,7 @@ figcaption {
     font-size: 40px;
     line-height: 44px;
     font-weight: 700;
+    color: white;
 }
 
 .subscribe-flex {
